@@ -15,5 +15,5 @@ package() {
 	cd "$srcdir/$pkgname"
 
 	install -d $pkgdir/opt/pru-cc/
-	mv -vf am335x_starterware pkgdir/opt/pru-cc/
+	mv -vf am335x_starterware $pkgdir/opt/pru-cc/
 }
