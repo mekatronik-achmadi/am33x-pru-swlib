@@ -7,7 +7,7 @@ url="https://github.com/BeaglePilot/PRUSS-C"
 license=('GPL')
 depends=()
 makedepends=()
-options=('!makeflags')
+options=('!makeflags' '!strip' 'staticlibs' 'libtool')
 source=("$pkgname::git+https://github.com/mekatronik-achmadi/am33x-pru-swlib")
 sha256sums=('SKIP')
 
