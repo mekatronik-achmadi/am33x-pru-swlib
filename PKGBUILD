@@ -8,7 +8,7 @@ license=('GPL')
 depends=()
 makedepends=()
 options=('!makeflags')
-source=("$pkgname::git+https://github.com/mekatronik-achmadi/achmadi-am33x-drivers")
+source=("$pkgname::git+https://github.com/mekatronik-achmadi/am33x-pru-swlib")
 sha256sums=('SKIP')
 
 package() {
